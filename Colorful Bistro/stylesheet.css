@@ -1,0 +1,269 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, a, img, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    background-image: url(pizza.jpeg);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #080808;
+    color: #f38805;
+    padding: 1em;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+   
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 10px;
+    height: 1000;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+nav a {
+    color: #d37d05;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: inline-block;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ff4f3d;
+}
+
+/* Main Content styles */
+main {
+    padding: 1em;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section styles */
+.hero {
+    background-color: #ba6108;
+    color: #050505;
+    text-align: center;
+    padding: 3em 1em;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #090909;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff4f3d;
+    color: #fff;
+}
+
+/* Menu Section styles */
+.menu {
+    background-color: #f96205;
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(4, 4, 4, 0.1);
+}
+
+.menu h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.menu-item {
+    margin-bottom: 2em;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.menu-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.menu-item p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.menu-item span {
+    display: block;
+    font-size: 1.5em;
+    color: #030303;
+}
+
+/* Gallery Section styles */
+.gallery {
+    background-color: #f54545;
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(6, 6, 6, 0.1);
+}
+
+.gallery h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.gallery-item {
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Reviews Section styles */
+.reviews {
+    background-color: #e89906;
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.review {
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.review p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.review span {
+    display: block;
+    font-size: 1.5em;
+    color: #ff4f3d;
+}
+
+/* Contact Section styles */
+.contact {
+    background-color: rgb(255, 136, 0);
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(186, 3, 3, 0.1);
+    
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+button {
+    background-color: #ff4f3d;
+    color: #fff;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ff4f3d;
+}
+
+/* Footer styles */
+footer {
+    background-color: #bd0b0b8a;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+
